@@ -1,0 +1,32 @@
+*{
+    margin: 0; padding: 0;box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav{
+    display: flex; justify-content: space-between;
+    align-items: center; height: 100px; width: 100%; background-color: blanchedalmond;
+}
+.logo h1{
+    padding: 20px; color: red;
+}
+.links >ul {
+    display: flex; 
+}
+.links >ul >li {
+    padding: 20px;
+}
+.links >ul >li>a{
+    transition: all 1s ease;
+}
+.links >ul >li >a:hover{
+    color: red;
+}
+.drop ul

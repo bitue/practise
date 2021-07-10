@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            background-color: rgb(236, 203, 203);
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pitha utsob</h1>
+    <form action="get">
+        <p> name:
+            <input type="text" placeholder="enter your name" name="name">
+        </p>
+        <p> email:
+            <input type="email" placeholder="enter your name" name="email">
+        </p>
+        <fieldset>
+            <legend> choose your pitha  </legend>
+
+            <p>
+                <label for="chitoy">
+                    <input type="radio" id="chitoy" name="pitha"> chitoy
+                </label>
+            </p>
+            <p>
+                <label for="vapa">
+                    <input type="radio" id="vapa" name="pitha"> vapa
+                </label>
+            </p>
+            <p>
+                <label for="tell">
+                    <input type="radio" id="tell" name="pitha"> tell er pitha
+                </label>
+            </p>
+            <p>
+                <label for="shutki">
+                    <input type="checkbox" name="vorta" id="shutki">
+                </label>shutki
+            </p>
+            <p><label for="kalozira"><input type="checkbox" name="vorta" id="kalozira"></label>kalozira</p>
+            <p><label for="kola"><input type="checkbox" name="vorta" id="kola"></label>kola vorta</p>
+            <p>
+                <textarea name="ins" id="name" cols="30" rows="10" placeholder="write something about us"></textarea>
+            </p>
+            <input type="button" value="button">
+            <input type="reset" value="reset">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
