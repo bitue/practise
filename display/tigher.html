@@ -30,7 +30,8 @@
             position: absolute;
             width: 300px;
             top: 0;
-            display: none;
+            transform: scale(0);
+
             transition: all 5s ease;
         }
 
@@ -38,7 +39,8 @@
             display: block;
             background-color: rgb(85, 82, 82);
             top: 100px;
-            transition: background-color 1s ease;
+            transform: scale(1);
+            transition: transform 1s ease-in-out;
         }
 
         .wrapper:hover img {
