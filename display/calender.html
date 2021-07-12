@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <style>
+        .calender{
+            display: grid; grid-template-columns: repeat(7, 1fr); grid-gap: 10px;
+        }
+        .date{
+            height: 90px; background-color: gray; display: flex;justify-content: center; align-items: center; border-radius: 15px; 
+            transition: all 1s ease;
+        }
+        .date:hover{
+            transform: scale(.75) translate(10px ,-100px);
+        }
+        .day{
+            background-color: rgb(122, 230, 122);
+        }
+        .other{
+            background-color: khaki;
+        }
+        .holy{
+            background-color: lightcoral;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">
+        My Awesome Calender
+    </h1>
+    <div class="calender">
+        <div class="date day ">Sat</div>
+        <div class="date day ">Sun</div>
+        <div class="date day">Mon</div>
+        <div class="date day">Tue</div>
+        <div class="date day">Wed</div>
+        <div class="date day holy">Thu</div>
+        <div class="date other holy">Fri</div>
+        <div class="date other">28</div>
+        <div class="date other">29</div>
+        <div class="date other">30</div>
+        <div class="date other">31</div>
+        <div class="date">31</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+        <div class="date">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date">9</div>
+        <div class="date">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date">16</div>
+        <div class="date">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date">24</div>
+        <div class="date">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        
+    </div>
+</body>
+</html>
