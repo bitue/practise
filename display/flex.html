@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .log-in {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 50vh;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        input:last-child {
+            padding: 10px;
+            background-color: azure;
+            font-size: 18px;
+            font-weight: 700;
+            color: rgb(114, 25, 230);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        nav .link a {
+            margin-right: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
+
+        nav .font i {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="link">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Power-play</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="font">
+            <i class="fas fa-sign-in-alt"></i>
+            <i class="fas fa-truck"></i>
+        </div>
+    </nav>
+    <h1 style="text-align: center;">Log in now </h1>
+    <section class="log-in">
+
+        <input type="email" name="email" id="email" placeholder="email">
+        <input type="password" name="pass" id="pass" placeholder="pass">
+        <input type="submit" value="Login">
+    </section>
+    <script src="https://kit.fontawesome.com/be607db95d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
